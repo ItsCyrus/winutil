@@ -33,7 +33,7 @@ Moves OneDrive files to Default Home Folders and Uninstalls it.
           $OneDriveExe, $OneDriveArgs = $OneDriveUninstallString.Split(\" \")
           Start-Process -FilePath $OneDriveExe -ArgumentList \"$OneDriveArgs /silent\" -NoNewWindow -Wait
       } else {
-          Write-Host \"Onedrive dosn't seem to be installed anymore\" -ForegroundColor Red
+          Write-Host \"Onedrive doesn't seem to be installed anymore\" -ForegroundColor Red
           return
       }
       # Check if OneDrive got Uninstalled
@@ -128,7 +128,7 @@ Moves OneDrive files to Default Home Folders and Uninstalls it.
           $OneDriveExe, $OneDriveArgs = $OneDriveUninstallString.Split(" ")
           Start-Process -FilePath $OneDriveExe -ArgumentList "$OneDriveArgs /silent" -NoNewWindow -Wait
       } else {
-          Write-Host "Onedrive dosn't seem to be installed anymore" -ForegroundColor Red
+          Write-Host "Onedrive doesn't seem to be installed anymore" -ForegroundColor Red
           return
       }
       # Check if OneDrive got Uninstalled
